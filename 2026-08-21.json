@@ -1,0 +1,21 @@
+{
+  "title": "The Little Star Who Wanted to Visit Earth",
+  "originalStory": "A little star peeked out from the night sky...",
+  "sourceLanguage": "en",
+  "visualBible": "Luna: a small warm-gold five-pointed star...",
+  "settings": {
+    "pageCount": 3,
+    "sentencesPerPage": 3,
+    "illustrationStyle": "Masal Kitabı"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "High above the quiet town...",
+      "illustrationSymbol": "moon.stars.fill",
+      "illustrationScene": "A small smiling golden star...",
+      "illustrationImageBase64": null,
+      "illustrationMimeType": "image/jpeg"
+    }
+  ]
+}
