@@ -1,8 +1,8 @@
 {
   "title": "The Little Star Who Wanted to Visit Earth",
-  "originalStory": "A little star peeked out from the night sky...",
+  "originalStory": "A little star peeked out from the night sky and wished to visit Earth. It slid down a moonbeam, made a new friend in a garden, and found its way home with a happy heart.",
   "sourceLanguage": "en",
-  "visualBible": "Luna: a small warm-gold five-pointed star...",
+  "visualBible": "Luna: a small warm-gold five-pointed star with a gentle smiling face, tiny sparkles at the tips, no clothes. The garden: round green hills, a winding stone path, and oversized glowing flowers.",
   "settings": {
     "pageCount": 3,
     "sentencesPerPage": 3,
@@ -11,9 +11,25 @@
   "pages": [
     {
       "pageNumber": 1,
-      "text": "High above the quiet town...",
+      "text": "High above the quiet town, a little star named Luna peeked out from behind a silver cloud. She had never been closer to Earth than this. Tonight, she wished she could see the flowers that glowed so softly below.",
       "illustrationSymbol": "moon.stars.fill",
-      "illustrationScene": "A small smiling golden star...",
+      "illustrationScene": "A small smiling golden star peeks from behind a silver cloud above a quiet town at night, warm storybook lighting.",
+      "illustrationImageBase64": null,
+      "illustrationMimeType": "image/jpeg"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Luna slid down a moonbeam and landed in a garden of tall, friendly flowers. A child watering the path waved and whispered hello. Together they watched the petals shine like tiny lanterns.",
+      "illustrationSymbol": "leaf.fill",
+      "illustrationScene": "The small golden star stands in a garden of oversized glowing flowers beside a child with a watering can, moonlight on a stone path.",
+      "illustrationImageBase64": null,
+      "illustrationMimeType": "image/jpeg"
+    },
+    {
+      "pageNumber": 3,
+      "text": "When it was time to go, the child pointed to the brightest moonbeam. Luna climbed it slowly, her sparkles trailing like a goodbye. From the sky she winked, promising to visit again tomorrow night.",
+      "illustrationSymbol": "sparkles",
+      "illustrationScene": "The small golden star climbs a glowing moonbeam above the garden while a child waves goodbye, sparkles trailing behind, happy ending.",
       "illustrationImageBase64": null,
       "illustrationMimeType": "image/jpeg"
     }
