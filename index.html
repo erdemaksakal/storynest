@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +68,8 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="meta"><strong>StoryNest</strong> · Last updated: August 25, 2026</p>
+  <p class="meta"><strong>StoryNest</strong> · Last updated: September 24, 2026</p>
+  <p class="meta"><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
 
   <p>
     This Privacy Policy explains how StoryNest (“we,” “our,” or “us”) handles information when you use our
@@ -79,12 +79,15 @@
 
   <h2>1. What StoryNest does</h2>
   <p>
-    StoryNest helps children and families turn short spoken or typed stories into illustrated picture books.
-    You can record a story with the <strong>microphone</strong>, type text, and the app will format it into pages.
+    StoryNest is a family storybook app. You can <strong>type or speak</strong> a short idea and the app turns it into
+    an illustrated picture book. You can switch a book between languages (for example Turkish and English), save
+    vocabulary from your books, practice <strong>pronunciation</strong> to earn points, unlock gift books with points,
+    receive optional <strong>daily gift books</strong>, and <strong>share</strong> books to Instagram, Facebook, or PDF
+    using the iOS share sheet.
+  </p>
+  <p>
     Depending on your plan and device, books may use <strong>on-device Apple Intelligence</strong> (text and system
-    symbols) or <strong>cloud AI</strong> for richer stories and AI-generated images. The app may also download
-    pre-made <strong>daily gift books</strong> from our public content feed and send optional local
-    <strong>notifications</strong> when a new gift is available.
+    symbols) or <strong>cloud AI</strong> for richer stories and AI-generated images.
   </p>
 
   <h2>2. Our approach to privacy</h2>
@@ -107,21 +110,25 @@
 
   <h2>4. Data stored on your device</h2>
   <p>
-    By default, your created books (text, metadata, and saved illustration files), app preferences, quota-related
-    flags, and a random app identifier used for usage limits are stored locally on your device using iOS storage
-    (for example the app’s documents directory and standard app settings).
+    By default, the following stay on your device using iOS storage (the app’s documents directory and standard
+    app settings):
   </p>
+  <ul>
+    <li>Created books (text, metadata, and saved illustration files)</li>
+    <li>Saved vocabulary lists and pronunciation point totals</li>
+    <li>App preferences, quota-related flags, and a random <strong>device identifier</strong> used for usage limits</li>
+  </ul>
   <p>
-    You can delete individual books in the app, or remove local data by deleting the app (subject to your device
-    and iOS settings).
+    You can delete individual books and words in the app, or remove local data by deleting the app (subject to your
+    device and iOS settings).
   </p>
 
   <h2>5. Microphone, speech recognition, and story input</h2>
   <p>
-    If you choose to tell a story by voice, the app requests access to the <strong>microphone</strong> and
-    <strong>speech recognition</strong>, as described in the system permission prompts. Speech is converted to
-    text so you can edit it and create a book. Speech recognition is provided through Apple’s Speech framework
-    and is subject to
+    If you tell a story by voice or practice word pronunciation, the app requests access to the
+    <strong>microphone</strong> and <strong>speech recognition</strong>, as described in the system permission prompts.
+    Speech is converted to text so you can edit a story or score a spoken word. Speech recognition is provided through
+    Apple’s Speech framework and is subject to
     <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple’s Privacy Policy</a>.
     Depending on your device and settings, recognition may occur on device or involve Apple’s services.
   </p>
@@ -143,27 +150,28 @@
     the app may use a limited local fallback generator so you can still preview a book.
   </p>
 
-  <h2>7. Cloud processing (welcome book, Pro books, translations)</h2>
+  <h2>7. Cloud processing (welcome book, Pro books, translations, point gifts)</h2>
   <p>
     When you use features that rely on our cloud backend—for example your one-time welcome illustrated book,
-    <strong>StoryNest Pro</strong> illustrated books, or translation of a daily gift book—the app sends relevant
-    information to our servers hosted on <strong>Supabase</strong>, which may forward content to
-    <strong>OpenAI</strong> to generate or translate story text and images.
+    <strong>StoryNest Pro</strong> illustrated books, <strong>translation</strong> of a book or daily gift, or
+    unlocking a point-reward gift book—the app sends relevant information to our servers hosted on
+    <strong>Supabase</strong>, which may forward content to <strong>OpenAI</strong> to generate or translate story
+    text and images.
   </p>
   <p>
     Depending on the feature, this may include:
   </p>
   <ul>
     <li>Your story text (typed or transcribed from speech)</li>
+    <li>Book title, page text, and illustration scene descriptions for translation</li>
     <li>Book settings such as page count, language, and illustration style</li>
-    <li>Generated page text and illustration scene descriptions</li>
     <li>A pseudonymous <strong>device identifier</strong> (a random ID stored on your device, not your Apple ID)</li>
-    <li>Subscription tier and quota-related flags needed to enforce plan limits</li>
+    <li>Subscription tier, pronunciation points, and quota-related flags needed to enforce plan and reward limits</li>
   </ul>
   <p>
     Our backend stores limited usage records tied to the device identifier (for example whether the welcome book
-    was used and how many Pro books were created today). We use this to enforce plan limits, not to build
-    marketing profiles.
+    was used, how many Pro books were created in the current period, and claimed point rewards). We use this to
+    enforce plan limits and gifts, not to build marketing profiles.
   </p>
   <p>
     OpenAI processes content according to its own policies. We configure these services to provide the feature
@@ -175,50 +183,62 @@
     <a href="https://openai.com/policies/privacy-policy" rel="noopener noreferrer">OpenAI Privacy Policy</a>.
   </p>
 
-  <h2>8. Daily gift books and public content</h2>
+  <h2>8. Daily gift books, point-reward books, and public content</h2>
   <p>
-    The app may download publicly hosted daily gift book files (JSON and related assets) from
-    <strong>GitHub</strong> or similar content endpoints configured by us. These requests retrieve book content
-    for the selected date and are not used to identify you personally. If your device language differs from the
-    gift book language, the app may send the book text to our translation service as described above.
+    The app may download publicly hosted gift book files (JSON, including optional images) from
+    <strong>GitHub</strong> or similar content endpoints we configure. These include daily gift stories and
+    books unlocked with pronunciation points. Requests retrieve book content and are not used to identify you
+    personally. If your device language differs from the book language, the app may send the book text to our
+    translation service as described above.
   </p>
   <p>
     GitHub’s handling of technical connection data is governed by
     <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer">GitHub’s Privacy Statement</a>.
   </p>
 
-  <h2>9. Notifications</h2>
+  <h2>9. Sharing</h2>
   <p>
-    If you allow notifications, the app may schedule local reminders about daily gift books. Notification
-    permissions and delivery are handled by iOS. We do not use notifications to track you across apps.
+    If you choose <strong>Share</strong>, the app prepares images or a PDF of your book (or a vocabulary card)
+    and opens the iOS share sheet so <strong>you</strong> can send it to Instagram, Facebook, Messages, Files, or
+    another destination you pick. We do not post to social networks on your behalf without that choice. Shared
+    files may include story text and illustrations you created. Sharing is optional.
   </p>
 
-  <h2>10. Purchases (StoryNest Pro)</h2>
+  <h2>10. Notifications</h2>
+  <p>
+    If you allow notifications, the app may schedule local reminders about daily gift books or a newly unlocked
+    gift book. Notification permissions and delivery are handled by iOS. We do not use notifications to track you
+    across apps.
+  </p>
+
+  <h2>11. Purchases (StoryNest Pro)</h2>
   <p>
     If you purchase a subscription or other in-app product, payment and subscription status are processed by
     <strong>Apple</strong> through the App Store. We do not receive your full payment card number. The app uses
-    Apple’s StoreKit to determine whether Pro features are active on your device.
+    Apple’s StoreKit to determine whether Pro features are active on your device. Pro currently includes up to
+    <strong>20 illustrated books per month</strong> as shown in the app; exact limits may change and are always
+    described in the app and on the App Store.
   </p>
 
-  <h2>11. Security</h2>
+  <h2>12. Security</h2>
   <p>
     We design the app so your library stays on your device rather than on our infrastructure. Connections to our
     backend and content hosts use standard protections supported by iOS. No method of electronic storage or
     transmission is completely secure; keep your device software up to date and supervise children’s use of the app.
   </p>
 
-  <h2>12. Retention and your choices</h2>
+  <h2>13. Retention and your choices</h2>
   <p>
-    Books and preferences remain on your device until you delete them in the app or delete the app. Server-side
-    usage records tied to your pseudonymous device identifier are kept only as long as needed to operate quotas
-    and prevent abuse, after which they may be deleted or aggregated.
+    Books, vocabulary, and preferences remain on your device until you delete them in the app or delete the app.
+    Server-side usage records tied to your pseudonymous device identifier are kept only as long as needed to
+    operate quotas, rewards, and prevent abuse, after which they may be deleted or aggregated.
   </p>
   <p>
     Because we do not maintain StoryNest user accounts, there is no separate “account deletion” with us—your
     primary controls are in the app, on your iPhone or iPad, and in your Apple ID / App Store settings.
   </p>
 
-  <h2>13. Children’s privacy</h2>
+  <h2>14. Children’s privacy</h2>
   <p>
     StoryNest is designed for families to create stories for children, but it is intended to be used with
     <strong>parent or guardian involvement</strong>. We do not knowingly collect personal information directly
@@ -232,12 +252,13 @@
     details below.
   </p>
 
-  <h2>14. International users and your rights</h2>
+  <h2>15. International users and your rights</h2>
   <p>
     Depending on where you live, privacy laws may give you rights to access, correct, delete, or restrict certain
     processing of personal data, or to object or lodge a complaint with a supervisory authority. Most personal
     information stays on your device or with Apple (Speech, App Store). Limited server-side data relates mainly
-    to pseudonymous device identifiers, usage quotas, and story content you choose to send for cloud features.
+    to pseudonymous device identifiers, usage quotas, rewards, and story content you choose to send for cloud
+    features.
   </p>
   <p>
     <strong>European Economic Area, UK, and Switzerland:</strong> Where GDPR or similar laws apply, our legal bases
@@ -253,18 +274,19 @@
     rights or ask questions, use the contact method below.
   </p>
 
-  <h2>15. Changes to this policy</h2>
+  <h2>16. Changes to this policy</h2>
   <p>
     We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do.
     Continued use of the app after changes means you accept the updated policy, unless applicable law requires
     additional steps.
   </p>
 
-  <h2>16. Contact</h2>
+  <h2>17. Contact</h2>
   <p>
-    If you have questions about this Privacy Policy or how StoryNest handles data, contact us through the
-    <strong>App Store</strong> listing for StoryNest (Support / developer contact) or the support channel listed
-    there.
+    Questions about this Privacy Policy or StoryNest data practices:
+    <a href="mailto:erdemaksakal1@gmail.com">erdemaksakal1@gmail.com</a>
+    (please include “Privacy” in the subject) or the Support / developer contact on the App Store listing for
+    StoryNest. See also our <a href="support.html">Support</a> page.
   </p>
 
   <p class="note">
